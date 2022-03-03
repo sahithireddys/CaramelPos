@@ -1,0 +1,55 @@
+.navbar{
+  background-color: #94B49F;
+}
+.nav-link{
+  color: #E5E3C9 !important;
+  font-size: 20px;
+}
+
+.navbar-brand{
+  width: 60%;
+  padding-left: 5%;
+}
+.brand-img{
+  height: 5%;
+  width: 20%;
+}
+
+.nav-item{
+  padding: 5px;
+}
+
+.dropdown-menu
+{
+  background-color: #E5E3C9;
+}
+
+#services{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.card{
+  margin: 5%;
+}
+
+.card-img-top{
+  height: 10rem;
+  width: 18rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .brand-img{
+    height: 40px;
+    width: 120px;
+  }
+
+
+}
+
+@media only screen and (max-width: 500px){
+  .brand-img{
+    height: 40px;
+    width: 90px;
+  }
+}
