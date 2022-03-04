@@ -43,7 +43,15 @@
     height: 40px;
     width: 120px;
   }
-
+  .card {
+    width: 25rem !important;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .card-img-top{
+    height: 10rem;
+    width: 25rem;
+  }
 
 }
 
@@ -51,5 +59,14 @@
   .brand-img{
     height: 40px;
     width: 90px;
+  }
+  .card {
+    width: 18rem !important;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .card-img-top{
+    height: 10rem;
+    width: 18rem;
   }
 }
