@@ -1,8 +1,8 @@
 .navbar{
-  background-color: #94B49F;
+  background-color: #90E0EF;
 }
 .nav-link{
-  color: #E5E3C9 !important;
+  color:#21325E!important;
   font-size: 20px;
 }
 
@@ -21,7 +21,7 @@
 
 .dropdown-menu
 {
-  background-color: #E5E3C9;
+  background-color:  #90E0EF;
 }
 
 #services{
@@ -38,32 +38,36 @@
   width: 18rem;
 }
 
+.card-body{
+  background-color: #EEF2FF;
+}
+
 @media only screen and (max-width: 768px) {
   .brand-img{
-    height: 40px;
+    height: 80px;
     width: 120px;
   }
   .card {
-    width: 25rem !important;
+    width: 20rem !important;
     margin: auto;
     margin-top: 50px;
   }
   .card-img-top{
     height: 10rem;
-    width: 25rem;
+    width: 20rem;
   }
 
 }
 
 @media only screen and (max-width: 500px){
   .brand-img{
-    height: 40px;
-    width: 90px;
+    height:100px;
+    width: 200px;
   }
   .card {
     width: 18rem !important;
     margin: auto;
-    margin-top: 50px;
+
   }
   .card-img-top{
     height: 10rem;
