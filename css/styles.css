@@ -29,6 +29,10 @@
   text-align: center;
 }
 
+p{
+  text-align: justify;
+}
+
 .card{
   margin: auto;
 }
@@ -40,6 +44,37 @@
 
 .card-body{
   background-color: #EEF2FF;
+}
+
+#aboutus-name{
+  background-image: url("https://www.teahub.io/photos/full/190-1904333_abstract-futuristic-circle-sci-fi-technology-innovation-circle.jpg" );
+  min-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+.about{
+  color: white;
+  text-align: center;
+  font-size:100px;
+  padding-top: 75px;
+}
+
+.about-img{
+  height: 370px;
+  width: 530px;
+}
+
+@media only screen and (max-width: 1240px){
+  .about-img{
+    height: 450px;
+    width: 450px;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -55,6 +90,10 @@
   .card-img-top{
     height: 10rem;
     width: 20rem;
+  }
+  .about-img{
+    height: 400px;
+    width: 690px;
   }
 
 }
@@ -73,4 +112,52 @@
     height: 10rem;
     width: 18rem;
   }
+
+  #aboutus-name{
+    background-image: url("https://www.teahub.io/photos/full/190-1904333_abstract-futuristic-circle-sci-fi-technology-innovation-circle.jpg" );
+    min-height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .about{
+    color: white;
+    text-align: center;
+    font-size:50px;
+    padding-top: 35px;
+  }
+
+  .about-img{
+    height: 200px;
+    width: 290px;
+  }
+
+  .aboutus-title{
+    font-size: 30px;
+  }
+
+}
+
+#footer{
+  text-align:center;
+  padding: 3% 15%;
+    background-color: #90E0EF;
+}
+
+.footer-link{
+  font-weight: normal;
+  font-size: 10px;
+  color: grey;
+  height: 5px;
+}
+
+
+.icons{
+  margin: 20px 10px;
+}
+
+.ul{
+  list-style: none;
 }
