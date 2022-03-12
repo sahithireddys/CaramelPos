@@ -79,6 +79,10 @@ p{
     width: 50%;
     margin-left: -100px !important;
   }
+  .iconline{
+    margin-left: -45px !important;
+
+  }
 
 }
 
@@ -111,7 +115,8 @@ p{
     font-size: 10px !important;
   }
   .iconline{
-    padding-left: 10px !important;
+    margin-left: -30px !important;
+    padding-right:  0px;
   }
 
 
@@ -156,6 +161,15 @@ p{
   .aboutus-title{
     font-size: 30px;
   }
+  .footer-logo{
+    height: 20% !important;
+    width: 50%;
+    margin-left: -110px !important;
+  }
+  .iconline{
+    margin-left: -65px  !important;
+  }
+
 
 }
 
@@ -199,7 +213,7 @@ p{
 }
 
 .iconline{
-  padding-left: 20px;
+  margin-left: -70px !important;
 }
 
 .btn{
