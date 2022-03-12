@@ -69,10 +69,15 @@ p{
   width: 530px;
 }
 
-@media only screen and (max-width: 1240px){
+@media only screen and (max-width: 1024px){
   .about-img{
     height: 450px;
     width: 450px;
+  }
+  .footer-logo{
+    height: 30%;
+    width: 50%;
+    margin-left: -100px !important;
   }
 
 }
@@ -95,6 +100,20 @@ p{
     height: 400px;
     width: 690px;
   }
+  .footer-logo{
+    height: 20% !important;
+    width: 50%;
+    margin-left: -80px !important;
+  }
+
+  .icons{
+    margin: 10px !important;
+    font-size: 10px !important;
+  }
+  .iconline{
+    padding-left: 10px !important;
+  }
+
 
 }
 
@@ -148,15 +167,15 @@ p{
 
 .footer-link{
   font-weight: normal;
-  font-size: 10px;
-
+  font-size: 13px;
+  text-align: left;
   height: 5px;
 }
 
 
 .icons{
   margin: 20px 10px;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 #team{
@@ -166,4 +185,23 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.copy{
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.footer-logo{
+  height: 30%;
+  width: 50%;
+  margin-left: -130px;
+}
+
+.iconline{
+  padding-left: 20px;
+}
+
+.btn{
+  background-color: #98BAE7;
 }
