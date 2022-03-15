@@ -69,6 +69,55 @@ p{
   width: 530px;
 }
 
+
+#footer{
+  text-align:center;
+  padding: 3% 15%;
+    background-color: #90E0EF;
+}
+
+.footer-link{
+  font-weight: normal;
+  font-size: 13px;
+  text-align: left;
+  height: 5px;
+}
+
+
+.icons{
+  margin: 20px 10px;
+  font-size: 15px;
+}
+
+#team{
+  background-image: url("https://ak.picdn.net/shutterstock/videos/25891295/thumb/1.jpg");
+  min-height: 170px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.copy{
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.footer-logo{
+  height: 30%;
+  width: 50%;
+  margin-left: -130px;
+}
+
+
+.iconline{
+  margin-left: -150px !important;
+}
+
+.btn{
+  background-color: #98BAE7;
+}
+
 @media only screen and (max-width: 1024px){
   .about-img{
     height: 450px;
@@ -80,7 +129,7 @@ p{
     margin-left: -100px !important;
   }
   .iconline{
-    margin-left: -45px !important;
+    margin-left: -90px !important;
 
   }
 
@@ -115,8 +164,7 @@ p{
     font-size: 10px !important;
   }
   .iconline{
-    margin-left: -30px !important;
-    padding-right:  0px;
+    margin-left: -50px !important;
   }
 
 
@@ -167,55 +215,8 @@ p{
     margin-left: -110px !important;
   }
   .iconline{
-    margin-left: -65px  !important;
+    margin-left: -110px  !important;
   }
 
 
-}
-
-#footer{
-  text-align:center;
-  padding: 3% 15%;
-    background-color: #90E0EF;
-}
-
-.footer-link{
-  font-weight: normal;
-  font-size: 13px;
-  text-align: left;
-  height: 5px;
-}
-
-
-.icons{
-  margin: 20px 10px;
-  font-size: 15px;
-}
-
-#team{
-  background-image: url("https://ak.picdn.net/shutterstock/videos/25891295/thumb/1.jpg");
-  min-height: 170px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.copy{
-  font-size: 13px;
-  margin-bottom: 0;
-}
-
-.footer-logo{
-  height: 30%;
-  width: 50%;
-  margin-left: -130px;
-}
-
-.iconline{
-  margin-left: -70px !important;
-}
-
-.btn{
-  background-color: #98BAE7;
 }
