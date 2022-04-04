@@ -212,6 +212,22 @@ a:hover {
   .form-control1 {
     width: 300px;
   }
+
+  .signin{
+    font-size: 25px !important;
+  }
+
+  .signicon{
+    padding-top: 6%;
+    margin: 20px 5px;
+    font-size: 20px !important;
+    padding-left: 30px !important;
+  }
+
+  .signicons{
+    margin: 15px !important;
+  }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -279,4 +295,21 @@ a:hover {
   #login {
     padding: 5%;
   }
+
+
+    .signin{
+      font-size: 20px !important;
+    }
+
+    .signicon{
+      padding-top: 10%;
+      margin: 5px 5px;
+      font-size: 20px !important;
+      padding-left: 10px !important;
+    }
+
+    .signicons{
+      margin: 15px !important;
+    }
+
 }
