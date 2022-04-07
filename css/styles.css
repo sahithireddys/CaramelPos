@@ -117,7 +117,7 @@ p {
 .login-img {
   margin-top: 50px;
   height: 400px;
-  width: 500px;
+  width: 650px;
 }
 
 .form-control1 {
@@ -163,6 +163,11 @@ a:hover {
 
   .form-control1 {
     width: 476px;
+  }
+  .login-img {
+    margin-top: 50px;
+    height: 400px;
+    width: 500px;
   }
 }
 
