@@ -49,7 +49,7 @@ p {
 
 #aboutus-name {
   background-image: url("https://www.teahub.io/photos/full/190-1904333_abstract-futuristic-circle-sci-fi-technology-innovation-circle.jpg");
-  min-height: 300px;
+  min-height: 450px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,8 +59,8 @@ p {
 .about {
   color: white;
   text-align: center;
-  font-size: 100px;
-  padding-top: 75px;
+  font-size: 200px;
+  padding-top: 110px;
 }
 
 .about-img {
@@ -128,6 +128,11 @@ a:hover {
   text-decoration: none;
 }
 
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 .signin{
   font-size: 30px;
 }
@@ -142,6 +147,15 @@ a:hover {
 
 .signicons{
   margin: 22px;
+}
+
+#inputmsg{
+  height: 147px;
+}
+
+.salesimg{
+  height: 200px;
+  width: 500px;
 }
 
 
@@ -191,6 +205,13 @@ a:hover {
   .about-img {
     height: 400px;
     width: 690px;
+  }
+
+  .about {
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    padding-top: 110px;
   }
 
   .footer-logo {
@@ -316,5 +337,12 @@ a:hover {
     .signicons{
       margin: 15px !important;
     }
+
+    .salesimg{
+      height: 200px;
+      width: 270px;
+    }
+
+
 
 }
