@@ -59,8 +59,8 @@ p {
 .about {
   color: white;
   text-align: center;
-  font-size: 200px;
-  padding-top: 110px;
+  font-size: 100px;
+  padding-top: 150px;
 }
 
 .about-img {
@@ -183,6 +183,14 @@ a:link, a:visited {
     height: 400px;
     width: 500px;
   }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .iconline {
+    margin-left: -85px !important;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
