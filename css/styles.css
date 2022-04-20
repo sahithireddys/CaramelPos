@@ -107,7 +107,7 @@ p {
 }
 
 .iconline {
-  margin-left: -210px !important;
+  margin-left: -215px !important;
 }
 
 .btn {
@@ -133,31 +133,75 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-.signin{
+.signin {
   font-size: 30px;
 }
 
-
-
-.signicon{
+.signicon {
   padding-top: 3%;
   margin: 20px 10px;
   font-size: 25px;
 }
 
-.signicons{
+.signicons {
   margin: 22px;
 }
 
-#inputmsg{
+#inputmsg {
   height: 147px;
 }
 
-.salesimg{
+.salesimg {
   height: 200px;
   width: 500px;
 }
 
+.indexpg {
+  background-color: #333C83;
+}
+
+.indextitle {
+  margin-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  font-size: 60px;
+  color: white;
+}
+
+.indextag {
+  margin-left: 100px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.indexbutton {
+  margin-left: 100px;
+  height: 60px;
+}
+
+.indeximg {
+  padding: 35px;
+  width: 600px;
+  height: 400px;
+}
+
+.index2{
+  padding: 50px;
+}
+
+.index2title{
+  font-size: 40px;
+}
+
+.index2text{
+  font-size: 15px;
+  margin: 0 120px 20px;
+}
+
+.getfree{
+  margin-left: 470px
+}
 
 @media only screen and (max-width: 1024px) {
   .about-img {
@@ -171,22 +215,22 @@ a:link, a:visited {
     margin-left: -130px !important;
   }
 
-  .iconline {
-    margin-left: -140px !important;
-  }
-
   .form-control1 {
     width: 476px;
   }
+
   .login-img {
     margin-top: 50px;
     height: 400px;
     width: 500px;
   }
+
+  .getfree{
+    margin-left: 350px
+  }
 }
 
 @media only screen and (max-width: 1100px) {
-
   .iconline {
     margin-left: -140px !important;
   }
@@ -254,21 +298,20 @@ a:link, a:visited {
     width: 300px;
   }
 
-  .signin{
+  .signin {
     font-size: 25px !important;
   }
 
-  .signicon{
+  .signicon {
     padding-top: 6%;
     margin: 20px 5px;
     font-size: 20px !important;
     padding-left: 30px !important;
   }
 
-  .signicons{
+  .signicons {
     margin: 15px !important;
   }
-
 }
 
 @media only screen and (max-width: 500px) {
@@ -337,35 +380,31 @@ a:link, a:visited {
     padding: 5%;
   }
 
+  .signin {
+    font-size: 20px !important;
+  }
 
-    .signin{
-      font-size: 20px !important;
-    }
+  .signicon {
+    padding-top: 10%;
+    margin: 5px 5px;
+    font-size: 20px !important;
+    padding-left: 10px !important;
+  }
 
-    .signicon{
-      padding-top: 10%;
-      margin: 5px 5px;
-      font-size: 20px !important;
-      padding-left: 10px !important;
-    }
+  .signicons {
+    margin: 15px !important;
+  }
 
-    .signicons{
-      margin: 15px !important;
-    }
+  .salesimg {
+    height: 200px;
+    width: 270px;
+  }
 
-    .salesimg{
-      height: 200px;
-      width: 270px;
-    }
+  .quick {
+    text-align: left !important;
+  }
 
-    .quick{
-        text-align: left !important;
-    }
-
-    .footer-link{
-      text-align: left !important;
-    }
-
-
-
+  .footer-link {
+    text-align: left !important;
+  }
 }
