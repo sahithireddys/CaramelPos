@@ -203,6 +203,10 @@ a:link, a:visited {
   margin-left: 470px
 }
 
+  .indexcard{
+    font-size: 100px;
+  }
+
 @media only screen and (max-width: 1024px) {
   .about-img {
     height: 450px;
@@ -227,6 +231,35 @@ a:link, a:visited {
 
   .getfree{
     margin-left: 350px
+  }
+
+  .indextitle {
+    margin-left: 70px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-size: 60px;
+    color: white;
+  }
+
+  .indextag {
+    margin-left: 70px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: white;
+  }
+
+  .indexbutton {
+    margin-left: 70px;
+    height: 60px;
+  }
+
+  .indeximg {
+    padding: 35px;
+    width: 490px;
+    height: 400px;
+  }
+  .indexcard{
+    font-size: 100px;
   }
 }
 
@@ -312,6 +345,51 @@ a:link, a:visited {
   .signicons {
     margin: 15px !important;
   }
+
+  .indextitle {
+    margin-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 60px;
+    color: white;
+  }
+
+  .indextag {
+    margin-left: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: white;
+  }
+
+  .indexbutton {
+    margin-left: 30px;
+    height: 60px;
+  }
+
+  .indeximg {
+    padding: 40px;
+    width: 430px;
+    height: 400px;
+  }
+
+  .index2{
+    padding: 30px;
+  }
+
+  .index2title{
+    font-size: 40px;
+  }
+
+  .index2text{
+    font-size: 20px;
+    margin: 0 80px 10px;
+  }
+
+  .getfree{
+    margin-left: 250px
+  }
+
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -406,5 +484,48 @@ a:link, a:visited {
 
   .footer-link {
     text-align: left !important;
+  }
+
+  .indextitle {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    color: white;
+  }
+
+  .indextag {
+    margin-left: 20px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: white;
+  }
+
+  .indexbutton {
+    margin-left: 20px;
+    height: 60px;
+  }
+
+  .indeximg {
+    padding: 20px;
+    width: 290px;
+    height: 350px;
+  }
+
+  .index2{
+    padding: 10px;
+  }
+
+  .index2title{
+    font-size: 30px;
+  }
+
+  .index2text{
+    font-size: 20px;
+    margin:10px;
+  }
+
+  .getfree{
+    margin-left: 40px
   }
 }
