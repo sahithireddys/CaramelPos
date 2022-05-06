@@ -174,21 +174,19 @@ a:link, a:visited {
   color: white;
 }
 
-
-.indextag1{
+.indextag1 {
   padding-top: 100px;
   margin-left: 80px;
   font-size: 20px;
   color: white;
 }
 
-
 .indexbutton {
   margin-left: 80px;
   height: 80px;
 }
 
-.afterbutton{
+.afterbutton {
   padding-top: 10px;
   margin-left: 80px;
   font-size: 15px;
@@ -201,48 +199,63 @@ a:link, a:visited {
   height: 600px;
 }
 
-.index2{
+.index2 {
   padding: 50px;
 }
 
-.index2title{
+.index2title {
   padding: 0px 150px 0px;
   font-size: 30px;
   font-weight: bold;
-
 }
 
-.index2text{
+.index2text {
   font-size: 15px;
   padding: 30px 190px 0px;
 }
 
-.getfree{
+.getfree {
   margin-left: 430px
 }
 
-  .indexcard{
-    font-size: 100px;
-  }
+.indexcard {
+  font-size: 100px;
+}
 
-  .index3{
-    background-color:  #EFFFFD;
-  }
+.index3 {
+  background-color: #EFFFFD;
+}
 
-.index3head{
+.index3head {
   padding: 20px 250px 10px;
 }
 
-.index3text{
-    padding: 0px 250px 10px;
+.index3text {
+  padding: 0px 250px 10px;
 }
 
-.number{
+.number {
   padding-top: 100px;
   padding-left: 100px;
   padding-bottom: 100px;
 }
 
+.table {
+  padding: 150px;
+}
+
+.grid {
+  padding: 20px 50px 10px;
+}
+
+.companyimg {
+  height: 60px;
+  width: 100px;
+}
+
+.logos {
+  padding: 100px;
+}
 
 @media only screen and (max-width: 1024px) {
   .about-img {
@@ -266,18 +279,17 @@ a:link, a:visited {
     width: 500px;
   }
 
-  .getfree{
+  .getfree {
     margin-left: 315px
   }
 
-  .index2title{
+  .index2title {
     padding: 0px 100px 0px;
     font-size: 30px;
     font-weight: bold;
-
   }
 
-  .index2text{
+  .index2text {
     font-size: 25px;
     padding: 30px 130px 0px;
   }
@@ -296,7 +308,7 @@ a:link, a:visited {
     color: white;
   }
 
-  .indextag1{
+  .indextag1 {
     padding-top: 100px;
     margin-left: 70px;
     font-size: 30px;
@@ -307,7 +319,8 @@ a:link, a:visited {
     margin-left: 70px;
     height: 60px;
   }
-  .afterbutton{
+
+  .afterbutton {
     padding-top: 10px;
     margin-left: 70px;
     font-size: 20px;
@@ -320,25 +333,51 @@ a:link, a:visited {
     height: 600px;
   }
 
-
-  .index3head{
+  .index3head {
     padding: 20px 120px 10px;
-          font-size: 40px;
+    font-size: 40px;
   }
 
-  .index3text{
-      padding: 0px 120px 10px;
-      font-size: 30px;
+  .index3text {
+    padding: 0px 120px 10px;
+    font-size: 30px;
   }
 
-  .number{
+  .number {
     padding-top: 100px;
-    padding-left: 100px;
+    padding-left: 120px;
     padding-bottom: 100px;
     font-size: 30px;
   }
 
+  .companyimg {
+    height: 100px;
+    width: 150px;
+  }
 
+  .table {
+    padding: 100px;
+  }
+
+  .number {
+    padding-left: 60px;
+    padding-top: 60px;
+    font-size: 30px;
+  }
+
+  .grid {
+    padding: 20px 30px 10px;
+  }
+
+  .companyimg {
+    height: 60px;
+    width: 100px;
+  }
+
+  .logos {
+    padding: 100px;
+    padding-top: 120px;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -351,8 +390,6 @@ a:link, a:visited {
     width: 50%;
     margin-left: -145px !important;
   }
-
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -436,20 +473,19 @@ a:link, a:visited {
     color: white;
   }
 
-    .indextag1{
-      padding-top: 100px;
-      margin-left: 40px;
-      font-size: 30px;
-      color: white;
-    }
+  .indextag1 {
+    padding-top: 100px;
+    margin-left: 40px;
+    font-size: 30px;
+    color: white;
+  }
 
   .indexbutton {
     margin-left: 40px;
     height: 70px;
   }
 
-
-  .afterbutton{
+  .afterbutton {
     padding-top: 10px;
     margin-left: 40px;
     font-size: 20px;
@@ -462,25 +498,57 @@ a:link, a:visited {
     height: 500px;
   }
 
-  .index2{
+  .index2 {
     padding: 30px;
   }
 
-  .index2title{
+  .index2title {
     font-size: 40px;
-        padding: 0 10px 10px !important;
+    padding: 0 10px 10px !important;
   }
 
-  .index2text{
+  .index2text {
     font-size: 20px;
     padding: 0 20px 0px !important;
   }
 
-  .getfree{
+  .getfree {
     margin-left: 200px
   }
 
+  .companyimg {
+    height: 80px;
+    width: 100px;
+  }
 
+  .table {
+    padding: 100px;
+  }
+
+  .number {
+    padding: 100px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid {
+    padding: 20px 30px 10px;
+  }
+
+  .companyimg {
+    height: 60px;
+    width: 100px;
+  }
+
+  .logos {
+    padding: 100px;
+    padding-top: 10px;
+  }
+
+  .numbertext {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -591,27 +659,24 @@ a:link, a:visited {
     color: white;
   }
 
-  .indextag1{
+  .indextag1 {
     padding-top: 50px;
     margin-left: 20px;
     font-size: 15px;
     color: white;
   }
 
-
   .indexbutton {
     margin-left: 20px;
     height: 60px;
   }
 
-
-    .afterbutton{
-      padding-top: 10px;
-      margin-left: 20px;
-      font-size: 10px;
-      color: white;
-    }
-
+  .afterbutton {
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 10px;
+    color: white;
+  }
 
   .indeximg {
     padding: 20px;
@@ -619,44 +684,63 @@ a:link, a:visited {
     height: 300px;
   }
 
-  .index2{
+  .index2 {
     padding: 10px;
   }
 
-  .index2title{
+  .index2title {
     font-size: 30px;
   }
 
-  .index2text{
+  .index2text {
     font-size: 20px;
-    margin:10px;
+    margin: 10px;
   }
 
-
-  .getfree{
+  .getfree {
     margin-left: 30px;
   }
 
-  .demopremium{
+  .demopremium {
     margin-left: 30px;
     margin-bottom: 30px;
   }
 
+  .index3head {
+    padding: 20px 5px 10px;
+    font-size: 20px;
+  }
 
-    .index3head{
-      padding: 20px 5px 10px;
-            font-size: 20px;
-    }
+  .index3text {
+    padding: 0px 5px 10px;
+    font-size: 10px;
+  }
 
-    .index3text{
-        padding: 0px 5px 10px;
-        font-size: 10px;
-    }
+  .table {
+    padding: 100px;
+  }
 
-    .number{
-      font-size: 10px;
-      padding: 70px;
-      padding-left: 80px;
-    }
+  .number {
+    padding: 50px;
+    font-size: 10px;
+    text-align: center;
+  }
 
+  .grid {
+    padding: 10px 0px 10px;
+  }
+
+  .companyimg {
+    height: 60px;
+    width: 100px;
+  }
+
+  .logos {
+    padding: 100px;
+    padding-top: 5px;
+  }
+
+  .numbertext {
+    text-align: center;
+  }
 }
