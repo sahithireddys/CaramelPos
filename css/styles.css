@@ -236,8 +236,9 @@ a:link, a:visited {
 
 .number {
   padding-top: 100px;
-  padding-left: 100px;
-  padding-bottom: 100px;
+  padding-left: 120px;
+  padding-bottom: 50px;
+  font-size: 20px;
 }
 
 .table {
@@ -256,6 +257,39 @@ a:link, a:visited {
 .logos {
   padding: 100px;
 }
+
+
+.gridborder1, .gridborder2, .gridborder3{
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+
+
+.gridborder4 {
+  border-bottom: 1px solid;
+}
+
+.gridborder5, .gridborder6, .gridborder7{
+  border-right: 1px solid
+}
+
+
+.grow{
+  margin: 30px 160px 30px;
+}
+
+.growbutton {
+
+  height: 60px;
+}
+
+.growimg{
+  height: 250px;
+  width: 350px;
+}
+
+
+
 
 @media only screen and (max-width: 1024px) {
   .about-img {
@@ -346,7 +380,7 @@ a:link, a:visited {
   .number {
     padding-top: 100px;
     padding-left: 120px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     font-size: 30px;
   }
 
@@ -377,6 +411,21 @@ a:link, a:visited {
   .logos {
     padding: 100px;
     padding-top: 120px;
+  }
+
+
+  .grow{
+    margin: 30px 80px 30px;
+  }
+
+  .growbutton {
+
+    height: 60px;
+  }
+
+  .growimg{
+    height: 250px;
+    width: 370px;
   }
 }
 
@@ -549,6 +598,35 @@ a:link, a:visited {
   .numbertext {
     text-align: center;
   }
+
+  .gridborder1, .gridborder3, .gridborder5{
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+  }
+
+  .gridborder2, .gridborder4, .gridborder6 {
+    border-bottom: 1px solid;
+    border-right: 0px solid;
+  }
+
+  .gridborder7{
+    border-right: 1px solid
+  }
+
+  .grow{
+    margin: 30px 30px 30px;
+  }
+
+  .growbutton {
+
+    height: 60px;
+  }
+
+  .growimg{
+    height: 320px;
+    width: 330px;
+  }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -717,7 +795,7 @@ a:link, a:visited {
   }
 
   .table {
-    padding: 100px;
+    padding: 50px;
   }
 
   .number {
@@ -738,9 +816,29 @@ a:link, a:visited {
   .logos {
     padding: 100px;
     padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .numbertext {
     text-align: center;
   }
+
+  .gridborder2, .gridborder4, .gridborder6, .gridborder1, .gridborder3, .gridborder5, .gridborder7 {
+    border-bottom: 0px solid;
+    border-right: 0px solid;
+  }
+
+  .grow{
+    margin: 30px 5px 30px;
+  }
+
+  .growbutton {
+    height: 60px;
+  }
+
+  .growimg{
+    height: 200px;
+    width: 270px;
+  }
+
 }
